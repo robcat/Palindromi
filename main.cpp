@@ -15,12 +15,11 @@ string parole[] {
   "rosso",
 	"ereggere",
 	"arzigogolato",
-	"人上人",
 	"casa",
 };
 
 int main() {
   for(auto parola : parole) {
-		cout << parola.length() << '\t' << isPalindrome(parola) << '\t' << parola << endl;
+		cout << isPalindrome(parola) << '\t' << parola << endl;
 	}
 }
